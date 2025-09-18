@@ -1,0 +1,73 @@
+/* --- Feitiços Globais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e; /* Um fundo escuro de masmorra 🌑 */
+    font-family: sans-serif;
+    color: #e0e0e0;
+}
+
+/* --- Estilo do Artefato ÚNICO (ID) --- */
+#main-header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    color: #ffd700; /* Ouro! 💰 */
+}
+
+
+/* --- Magia de Layout Principal com GRID 🏰 --- */
+.character-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Duas colunas de tamanho igual */
+    gap: 30px; /* Um espaço maior entre as cartas */
+    width: 90%;
+    margin: 0 auto; /* Centraliza o grid na tela */
+    padding: 20px;
+}
+
+/* --- Estilo Geral das Cartas com FLEXBOX 🤸 --- */
+.card {
+    background-color: #2a2a4e;
+    border: 3px solid #a0a0c0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+
+    /* Alinhando a imagem e o título com Flex! */
+    display: flex;
+    flex-direction: column; /* Itens um embaixo do outro */
+    align-items: center; /* Centraliza na horizontal */
+    justify-content: space-between; /* Espaço entre os itens */
+    height: 450px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    border-color: #f0c040;
+    box-shadow: 0 0 15px #f0c040; /* Um brilho mágico! ✨ */
+}
+
+/* --- O Feitiço da IMAGEM RESPONSIVA --- */
+.character-image {
+    max-width: 100%; /* A imagem NUNCA será mais larga que a carta */
+    height: auto;   /* A altura se ajusta para não distorcer 👍 */
+    border-radius: 8px;
+}
+
+.character-title {
+    font-size: 1.8em; /* Tamanho da fonte */
+    color: #f0c040; /* Cor de ouro */
+    text-shadow: 2px 2px 4px #000; /* Sombra para dar profundidade */
+}
+
+.character-image2 {
+    max-width: 40%; /* A imagem NUNCA será mais larga que a carta */
+    height: auto;   /* A altura se ajusta para não distorcer 👍 */
+    border-radius: 8px;
+}
