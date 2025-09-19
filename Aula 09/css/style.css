@@ -1,0 +1,86 @@
+/* --- Importando uma fonte de um reino distante (Google Fonts) --- */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/* --- Feitiços Globais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Imagem de fundo de uma floresta mágica (do Pexels) */
+    background-image: url('https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* A imagem não rola com a página */
+   
+    font-family: 'MedievalSharp', cursive; /* Nossa fonte de RPG! */
+    color: #f0e6d2; /* Uma cor de pergaminho claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-shadow: 2px 2px 4px #000; /* Sombra no texto para melhor leitura */
+}
+
+.container {
+    background-color: rgba(18, 12, 8, 0.85); /* Fundo de madeira escura, semi-transparente */
+    border: 3px solid #7a5c33; /* Borda de madeira */
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Uma sombra mágica ao redor */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffc400; /* Cor de ouro */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+#userInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #f0e6d2; /* Fundo de pergaminho */
+    border: 2px solid #a07d4e;
+    border-radius: 5px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.2em;
+    color: #3d2e1a; /* Texto escuro */
+    text-shadow: none; /* Sem sombra no input */
+}
+
+#actionButton {
+    background-color: #8b4513; /* Marrom de couro */
+    color: #ffc400;
+    border: 3px solid #ffc400; /* Borda dourada */
+    padding: 15px 30px;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.3em;
+    cursor: pointer; /* O cursor vira uma mãozinha, como um item clicável */
+    border-radius: 50px; /* Um selo redondo */
+    transition: all 0.3s ease;
+}
+
+#actionButton:hover {
+    background-color: #ffc400; /* Efeito ao passar o mouse */
+    color: #8b4513;
+    transform: scale(1.05); /* Aumenta um pouco de tamanho */
+}
+
+#resposta {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #39ff14; /* Cor verde-limão, como uma poção mágica */
+    min-height: 50px; /* Garante um espaço mesmo quando vazio */
+    font-weight: bold;
+}
