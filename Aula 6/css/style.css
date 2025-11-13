@@ -1,0 +1,99 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1A1A1A;
+    color: #F4EBD0;
+    margin: 0;
+    padding: 0;
+    line-height: 2.0;
+}
+
+header {
+    background: linear-gradient(90deg, #D72638, #8B1E25);
+    color: #F4EBD0;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid #6d0000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* Sombra leve */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #F4EBD0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    color: #E8C547;
+    transform: scale(1.05);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+article {
+    flex: 3;
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #D72638;
+    box-shadow: 0 0 10px rgba(215,38,56,0.2);
+}
+
+article h2, article h3 {
+    color: #E8C547;
+}
+
+aside {
+    flex: 1;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #D72638;
+    box-shadow: 0 0 10px rgba(215,38,56,0.2);
+    font-style: italic;
+}
+
+footer {
+    background-color: #8B1E25;
+    color: #ffffff;
+    text-align: center;
+    padding: 46px;
+    border-top: 3px solid #6d0000;
+    font-size: 0.9rem;
+}
+
+ul li::marker {
+    color: #E8C547;
+}
+
+ol li::marker {
+    color: #D72638;
+    font-weight: bold;
+}
+
+strong {
+    color: #E8C547;
+}
+
+em {
+    color: #D72638;
+}

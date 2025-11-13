@@ -1,0 +1,18 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --rosa-claro: #FFB8FD;
+    --verde-agua: #2CF6B3;
+    --lilas-bombom: #8332AC;
+    --bege-nude: #FEDC97;
+    --vermelho-cereja: #EB5160;
+}
+
+header{
+    width: 100vw;
+    height: 12vh;
+    background: linear-gradient(350deg, var(--rosa-claro));
+}
