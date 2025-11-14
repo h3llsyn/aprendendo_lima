@@ -1,32 +1,28 @@
-/* ======== ESTILO GERAL ======== */
 body {
-  /* Imagem de fundo da floresta encantada */
-  background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
-  background-size: cover; /* Preenche toda a tela */
-  background-position: center; /* Centraliza a imagem */
-  background-attachment: fixed; /* Fundo fixo ao rolar */
+  background-image: url('../img/—Pngtree—sunlit\ pine\ forest\ a\ tranquil_15835431.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   
-  font-family: 'Uncial Antiqua', cursive; /* Fonte mística */
-  color: #f0f8e2; /* Cor clara para contraste */
-  text-align: center; /* Centraliza o conteúdo */
+  font-family: 'Uncial Antiqua', cursive;
+  color: #f0f8e2;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-/* ======== CONTÊINER PRINCIPAL ======== */
 .container {
-  background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro translúcido */
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 30px;
   border-radius: 20px;
   max-width: 600px;
-  margin: 80px auto; /* Centraliza o bloco na tela */
-  box-shadow: 0 0 20px rgba(0, 255, 128, 0.4); /* Brilho verde suave */
+  margin: 80px auto;
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.4);
 }
 
-/* ======== CABEÇALHO ======== */
 header h1 {
-  color: #c0ff9f; /* Verde claro mágico */
-  text-shadow: 0 0 10px #7fff00; /* Brilho nas letras */
+  color: #c0ff9f;
+  text-shadow: 0 0 10px #7fff00;
 }
 
 header p {
@@ -34,12 +30,10 @@ header p {
   color: #e8ffe8;
 }
 
-/* ======== FORMULÁRIO ======== */
 form {
   margin-top: 20px;
 }
 
-/* Campo de texto */
 #druidNameInput {
   width: 80%;
   padding: 10px;
@@ -52,7 +46,6 @@ form {
   font-family: 'Uncial Antiqua', cursive;
 }
 
-/* Botão mágico */
 #awakenButton {
   margin-top: 15px;
   padding: 10px 25px;
@@ -67,31 +60,26 @@ form {
 
 #awakenButton:hover {
   background-color: #5a8f1f;
-  box-shadow: 0 0 15px #aaff00; /* Brilho ao passar o mouse */
+  box-shadow: 0 0 15px #aaff00;
 }
 
-/* ======== RESPOSTA DA FLORESTA ======== */
 #forestResponse {
   margin-top: 25px;
   min-height: 50px;
   font-size: 1.3rem;
 }
 
-/* ======== ANIMAÇÃO MÁGICA ======== */
-/* Cria um brilho pulsante verde */
 @keyframes glow {
   0% { text-shadow: 0 0 10px #00ff80; }
   50% { text-shadow: 0 0 25px #aaff00; }
   100% { text-shadow: 0 0 10px #00ff80; }
 }
 
-/* Classe que ativa o brilho */
 .awakened {
   animation: glow 2s infinite alternate;
-  color: #adff2f; /* Verde brilhante */
+  color: #adff2f;
 }
 
-/* ======== RODAPÉ ======== */
 footer {
   margin-top: 30px;
   font-size: 0.9rem;
