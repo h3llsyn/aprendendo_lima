@@ -1,0 +1,89 @@
+body {
+  background-image: url('../img/—Pngtree—sunlit\ pine\ forest\ a\ tranquil_15835431.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  font-family: 'Uncial Antiqua', cursive;
+  color: #f0f8e2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 80px auto;
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.4);
+}
+
+header h1 {
+  color: #c0ff9f;
+  text-shadow: 0 0 10px #7fff00;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #e8ffe8;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#druidNameInput {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #2f4f2f;
+  font-size: 1rem;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+#awakenButton {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  background-color: #3a5f0b;
+  color: #f5f5f5;
+  border: 2px solid #7fff00;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#awakenButton:hover {
+  background-color: #5a8f1f;
+  box-shadow: 0 0 15px #aaff00;
+}
+
+#forestResponse {
+  margin-top: 25px;
+  min-height: 50px;
+  font-size: 1.3rem;
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 10px #00ff80; }
+  50% { text-shadow: 0 0 25px #aaff00; }
+  100% { text-shadow: 0 0 10px #00ff80; }
+}
+
+.awakened {
+  animation: glow 2s infinite alternate;
+  color: #adff2f;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #d0ffd0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+}
